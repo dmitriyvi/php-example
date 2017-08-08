@@ -1,19 +1,19 @@
 Метод принимает массив вида:</br>
-        **$days = [
-            "monday" => true,
-            "tuesday" => true,
-            "wednesday" => true,
-            "thursday" => false,
-            "friday" => true,
-            "saturday" => true,
-            "sunday" => false
+        **$days = [</br>
+            "monday" => true,</br>
+            "tuesday" => true,</br>
+            "wednesday" => true,</br>
+            "thursday" => false,</br>
+            "friday" => true,</br>
+            "saturday" => true,</br>
+            "sunday" => false</br>
         ];**</br>
 где true - рабочий день, false - выходной. 
 Задача: получить на выходе, массив разбитый на рабочие и выходные дни. Где три и более для которые идут подряд должны быть через символ тире, а одиночки через запятую. 
 Пример результата обработки массива выше:
      
-
-  **$res = [
-            "work" => "пн-ср,пт,сб",
-            "weekends" => "чт,нд"
-        ];**
+</br>
+  **$res = [</br>
+            "work" => "пн-ср,пт,сб",</br>
+            "weekends" => "чт,нд"</br>
+        ];**</br>

@@ -67,7 +67,7 @@ public function get_day_name($dayNum)
         $x = 0;
         $z = 0;
 
-        if(isset($days) && !empty($days)){
+        if(!empty($days)){
             foreach ($days as $dayName => $day) {
                 if($day){
                     $arr['work'][$x][] = $this->get_day_name($this->daysArr[$dayName]);
